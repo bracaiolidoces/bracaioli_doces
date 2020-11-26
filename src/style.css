@@ -1,0 +1,203 @@
+html {
+  font-size: 1rem;
+}
+
+.fonte-titulo {
+  font-family: 'Mr De Haviland', cursive;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+.fonte-secundaria {
+  font-family: 'Mr De Haviland', cursive;
+  font-size: 80px;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+  color: #ad7f75;
+  border: 1px solid #ad7f75;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+  background-color: #ad7f75;
+}
+
+.imagem-carrossel {
+  object-fit:cover; 
+  object-position: 0 80%;
+  height: 400px;
+}
+
+.barra-chololate-carrosel {
+  object-fit:cover; 
+  object-position: 0 35%;
+  height: 400px;
+}
+
+.bolo-carrosel {
+  object-fit:cover; 
+  object-position: 0 25%;
+  height: 400px;
+}
+
+.text-card-article {
+  padding: 12px;
+}
+
+.card-imagem {
+  width: 18rem;
+  object-fit:cover;
+  object-position: 0 60%;
+}
+
+.card-chocotoone-trufado {
+  height:200px;
+  object-fit:cover;
+  object-position: 0 40%;
+}
+
+.card-docinhos {
+  height:200px;
+  object-fit:cover;
+  object-position: 0 20%;
+}
+
+.card-bolos {
+  height:200px;
+  object-fit:cover;
+  object-position: 0 45%;
+}
+
+.card-barra-chocolate{
+  height:200px;
+  object-fit:cover;
+  object-position: 0 60%;
+}
+
+.card-ovo{
+  height:200px;
+  object-fit:cover;
+  object-position: 0 60%;
+}
+
+.card-cone{
+  height:200px;
+  object-fit:cover;
+  object-position: 0 85%;
+}
+
+
+.thumb-redondo {
+  border-radius:50%; 
+  width:250px; 
+  height:250px; 
+  object-fit:cover; 
+  object-position: 0 60%; 
+}
+
+.icones {
+  font-size: 2rem;
+}
+
+.texto-cor-especial {
+  color: #ad7f75;
+}
+
+.borda-cor-especial {
+  border-color: #ad7f75;
+}
+
+.btn-cor-especial {
+  background-color: #ad7f75;
+  color: white;
+}
+
+#cor-titulo {
+  color: #ad7f75;
+}
+
+.footer-copyright {
+  background-color: #ad7f75;
+  padding-top: 0px;
+  padding-bottom: 1px;
+  text-align: center;
+}
+
+.footer-autor {
+  color: white;
+  font-size: 12px;
+ 
+}
+a:hover {
+  text-decoration:none;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 990px) { 
+  .navbar-light .navbar-nav .nav-link {
+      text-align: center;
+      margin: 3px 3px;
+  }
+
+  .fonte-titulo {
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+
+  .barra-chololate-carrosel {
+    object-fit:cover; 
+    object-position: 40% 10%;
+    height: 400px;
+  }
+
+  .bolo-carrosel {
+    object-fit:cover; 
+    object-position: 40% 10%;
+    height: 400px;
+  }
+
+  .card-cone-carrosel {
+    object-fit:cover; 
+    object-position: 40% 10%;
+    height: 400px;
+  }
+
+  .barra-chololate-carrosel {
+    object-fit:cover; 
+    object-position: 40% 60%;
+    height: 400px;
+  }
+
+  .fonte-secundaria {
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 50px;
+    letter-spacing: 2px;
+  }
+  
+}
